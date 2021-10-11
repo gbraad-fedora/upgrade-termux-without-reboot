@@ -12,7 +12,11 @@ $ ./start-fedora.sh
 ```
 Note that during the update you need to change teh permission on a folder. Elsethe `upgrade` step will fail.
 
-Make sure your system is fully up to date by running `dnf update -y`.
+Make sure your system is fully up to date by running `dnf update -y` and has the `system-upgrade` command installed:
+
+```
+$ dnf install 'dnf-command(system-upgrade)'
+```
 
 
 ### The actual process
