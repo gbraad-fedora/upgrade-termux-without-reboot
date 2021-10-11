@@ -23,3 +23,8 @@ $ dnf system-upgrade download --releasever=32
 $ dnf system-upgrade reboot
 $ dnf system-upgrade upgrade
 ```
+
+
+#### Links
+
+  * https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/
