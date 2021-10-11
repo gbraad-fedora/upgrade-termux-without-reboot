@@ -1,4 +1,4 @@
-Fedora system update without reboot
+Fedora system upgrade without reboot
 ===================================
 
 These instructions will allow you to perform a system upgrade without the need (or possibility) to 'reboot'. For example,
