@@ -2,7 +2,7 @@ Fedora system upgrade without reboot
 ===================================
 
 These instructions will allow you to perform a system upgrade without the need (or possibility) to 'reboot'. For example,
-a reboot is not possible on Ternux or WSL2. With these instructions you will trigger the update yourself.
+a reboot is not possible on Termux or WSL2. With these instructions you will trigger the update yourself.
 
 
 On Termux start the environment as usual:
