@@ -38,4 +38,4 @@ $ dnf system-upgrade upgrade
 
 ##### WSL2
 
-This does not work when `systemd=true` has been set in `/etc/wsl.conf`. It somehow incorrectly shuts down with `reboot` and causes issues with connectivity on the `upgrade` step. For the moment, just disabled it and after the `reboot`/`upgrade` step you can re-enable it.
+This does not work when `systemd=true` has been set in `/etc/wsl.conf`. It somehow incorrectly shuts down with `reboot` and causes issues with connectivity on the `upgrade` step. For the moment, just disable it and after the `reboot`/`upgrade` step you can re-enable it.
