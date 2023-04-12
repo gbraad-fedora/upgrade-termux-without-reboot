@@ -39,3 +39,14 @@ $ dnf system-upgrade upgrade
 ##### WSL2
 
 This does not work when `systemd=true` has been set in `/etc/wsl.conf`. It somehow incorrectly shuts down with `reboot` and causes issues with connectivity on the `upgrade` step. For the moment, just disable it and after the `reboot`/`upgrade` step you can re-enable it.
+
+
+##### Missing GPG keys
+
+When you update, especially from an older release like 33 to 37, you might run into issues with missing GPG keys. To resolve this, look for the package: [`fedora-gpg-keys`](https://rpmfind.net/linux/rpm2html/search.php?query=fedora-gpg-keys) and install using:
+
+```
+# rpm -Uvh fedora-gpg-keys-37-2.noarch.rpm
+```
+
+After this you can run the download/upgrade as mentioned above.
