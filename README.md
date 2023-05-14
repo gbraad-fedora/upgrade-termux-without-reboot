@@ -10,7 +10,7 @@ On Termux start the environment as usual:
 $ chmod 700 fedora-fs
 $ ./start-fedora.sh
 ```
-Note that during the update you need to change teh permission on a folder. Elsethe `upgrade` step will fail.
+Note that during the update you need to change the permission on a folder, else the `upgrade` step will fail.
 
 Make sure your system is fully up to date by running `dnf update -y` and has the `system-upgrade` command installed:
 
